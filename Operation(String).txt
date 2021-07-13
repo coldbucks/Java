@@ -1,0 +1,18 @@
+public class StringApp {
+
+	public static void main(String[] args) {
+		System.out.println("Hello World"); //string
+		System.out.println('H'); // Character
+		System.out.println("H"); // Java에서는 큰 따옴표와 작은 따옴표가 다르다.
+		
+		System.out.println("Hello "
+				+ "World"); 
+		
+		// new line
+		System.out.println("Hello \nWorld"); 
+		
+		// escape
+		System.out.println("Hello \"Word\""); 
+	}
+
+}
