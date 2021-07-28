@@ -1,0 +1,39 @@
+public class AccountingApp {
+
+	public static void main(String[] args) {
+		
+		double valueOfSupply = 10000.0;
+		double vatRate = 0.1;
+		double vat = valueOfSupply*vatRate;
+		double total = valueOfSupply + vat;
+		double expenseRate = 0.3;
+		double expense = valueOfSupply*expenseRate;
+		double income = valueOfSupply - expense;
+		double dividend1 = income * 0.5;
+		double dividend2 = income * 0.3;
+		double dividend3 = income * 0.2;
+		
+		System.out.println("Value of supply :"+valueOfSupply);
+		System.out.println("Vat :"+ vat );
+		System.out.println("Total :"+ total );
+		System.out.println("Expense : "+ expense );
+		System.out.println("Icome : "+ income );
+		System.out.println("Dividend : "+ dividend1 );
+		System.out.println("Dividend : "+ dividend2 );
+		System.out.println("Dividend : "+ dividend3 );
+		
+		
+	}
+
+}
+
+
+
+Value of supply :10000.0
+Vat :1000.0
+Total :11000.0
+Expense : 3000.0
+Icome : 7000.0
+Dividend : 3500.0
+Dividend : 2100.0
+Dividend : 1400.0
